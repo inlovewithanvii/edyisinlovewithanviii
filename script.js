@@ -22,6 +22,7 @@ function toggleMusic() {
     music.pause();
   }
 }
-document.addEventListener("click", () => {
+document.querySelector(".container").innerHTML =
+ 
   if (music.paused) music.play();
 }, { once: true });
