@@ -1,5 +1,5 @@
-const noBtn = document.getElementById("noBtn");
-const yesBtn = document.getElementById("yesBtn");
+const noBtn = document.getElementById("no-btn");
+const yesBtn = document.getElementById("yes-btn");
 
 noBtn.addEventListener("mouseover", () => {
  const x = Math.random() * (window.innerWidth - noBtn.offsetWidth);
